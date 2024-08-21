@@ -1,0 +1,43 @@
+body {
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+
+.file-upload-container {
+    position: absolute;
+    top: 50%;
+    right: 10%; /* Adjust this value to move the container left or right */
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.upload-button,
+.profile-button {
+    padding: 10px 20px;
+    background-color: #f8787a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from anchor tag */
+    text-align: center;
+    margin-right: 10px; /* Space between buttons */
+}
+
+.upload-button:hover,
+.profile-button:hover {
+    background-color: #f46099;
+}
+
+.file-input {
+    display: none;
+}
+.logo{
+    top:20px;
+}

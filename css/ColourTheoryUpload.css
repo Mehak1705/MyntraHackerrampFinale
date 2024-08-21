@@ -1,0 +1,65 @@
+/* custom.css */
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .button-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20; /* Ensures button is above other elements */
+  }
+  
+  .custom-file-label, .file-chosen {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ff756e; /* Adjust color as needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-file-label:hover, .file-chosen:hover {
+    background-color: #e9a6ff; /* Adjust color as needed */
+  }
+  
+  .try-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff756e; /* Adjust color as needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .try-now-button:hover {
+    background-color: #e9a6ff; /* Adjust color as needed */
+  }
+  
+  .file-chosen {
+    margin-left: 10px;
+    background-color: transparent;
+    color: #000;
+  }
+  

@@ -1,0 +1,25 @@
+/* ColourTheoryUpload.css */
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .more-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ff756e; /* Adjust color as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .more-button:hover {
+    background-color: #e9a6ff; /* Adjust color as needed */
+  }
+  

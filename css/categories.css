@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.product-img{
+    display: grid;
+    grid-template-columns: repeat(1,auto-fill(1160px,1fr));
+}
+h1{
+    padding-top: 110px;
+    margin:20px;
+    text-align: center;
+}
+hr{
+    
+    max-width: 200px;
+    border:1px solid #caa529;
+}
+#name-fashion{
+    color:#f84258;
+}
+.trends-header, .main-head-of-color-gold{
+    color:#caa529;
+}
+.trends-categories, .for-her, .for-him{
+    display:grid;
+    padding-left:50px;
+}
+.trends-categories{
+    grid-template-columns: repeat(3,1fr);
+}
+.for-her{
+    grid-template-columns: repeat(2,1fr);
+}
+.for-him{
+    grid-template-columns: repeat(5,1fr);
+}
+@media screen and (max-width:984px){
+    .trends-categories, .for-her, .for-him{
+        padding-right:20px;
+        padding-left:20px;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .center-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .container .overlay-gif {
+    position: absolute;
+    top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    z-index: 10; /* Makes sure the GIF is on top */
+}
+.button-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+.button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20; /* Ensures button is above other elements */
+}
+.try-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ff756e; /* Adjust color as needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.try-now-button:hover {
+    background-color: #e9a6ff; /* Adjust color as needed */
+} 

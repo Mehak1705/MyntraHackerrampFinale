@@ -1,0 +1,48 @@
+/* Add these styles to your products.css or other appropriate CSS file */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .center-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .more-button-bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #2989f6; /* Adjust color as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .more-button-bottom-little-right {
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
+    padding: 10px 20px;
+    background-color:  #2989f6; /* Adjust color as needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .more-button-bottom-right:hover {
+    background-color: #007bff; /* Adjust hover color as needed */
+  }
+  .more-button-bottom-little-right:hover {
+    background-color: #007bff; /* Adjust hover color as needed */
+  }
+  
